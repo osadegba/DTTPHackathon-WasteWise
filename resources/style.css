@@ -1,0 +1,99 @@
+body {
+    background-color: #90DD5F;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.left {
+    left: 0;
+    position: absolute;
+}
+
+.right {
+    right: 0;
+    border-radius: 40px 5px 5px 50px;
+    background: #ffffff;
+    height: 100vh;
+    flex: 50%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#fb, #google {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 870;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.socials {
+    float: left;
+    position: relative;
+    margin: 10px 0;
+    width: 30%;
+    border: 1px 0.5 #A8A0A0;
+    text-align: left;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #769BC1 0.05;
+}
+
+hr {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 0;
+	height: 1px;
+	margin: 5px;
+}
+span {
+    display: block;
+	width: 40px;
+	margin: auto;
+	font-size: 14px;
+	margin-top: -16px;
+}
+    /*overflow: visible;
+    text-align: center;
+    width: 10px;
+    height: 5px;
+}
+
+hr::after {
+    content: 'OR';
+    position: relative;
+}*/
+
+#gbutton {
+    margin-left: 20%
+}
+#fbutton {
+    margin-left: 20px;
+}
+
+.submit {
+    background-color: #599930;
+}
