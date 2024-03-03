@@ -1,0 +1,94 @@
+body {
+    background-color: #F7FFF2;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav {
+    background-color: #F7FFF2;
+    overflow: hidden;
+}
+
+.topnav img {
+    float: left;
+    padding: 0;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    padding: 50px 15px 15px;
+    font-weight: 700;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+.topHead {
+    background-color: #599930;
+    padding-top: 40px;
+    border-radius: 0 0 50px 50px;
+}
+
+.logoCase {
+    background-color: #fff;
+    width: 25%;
+    text-align: center;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+
+.topHead h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 80px;
+    font-size: 60px;
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttons button{
+    width: 15%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: #599930;
+    border: #599930;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.midInfo {
+    background-color: #599930;
+    padding-top: 80px;
+}
+
+.midInfo div{
+    background-color: #fff;
+    width: 15%;
+}
+.midInfo h2{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-left: 80px;
+    font-size: 50px;
+}
+.midInfo img{
+    text-align: center;
+    margin: 40px 10%;
+}
+
+#box1 
